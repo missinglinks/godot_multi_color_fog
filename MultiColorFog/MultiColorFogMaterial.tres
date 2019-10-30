@@ -1,0 +1,16 @@
+[gd_resource type="ShaderMaterial" load_steps=4 format=2]
+
+[ext_resource path="res://MultiColorFog/MultiColorFog.shader" type="Shader" id=1]
+
+[sub_resource type="Gradient" id=1]
+offsets = PoolRealArray( 0, 0.257862, 1 )
+colors = PoolColorArray( 0.572549, 1, 0.639216, 0, 0.967743, 0.410156, 1, 0.647799, 1, 0.517647, 0.517647, 1 )
+
+[sub_resource type="GradientTexture" id=2]
+gradient = SubResource( 1 )
+
+[resource]
+shader = ExtResource( 1 )
+shader_param/fog_intensity = 0.879
+shader_param/fog_amount = 0.021
+shader_param/gradient = SubResource( 2 )
