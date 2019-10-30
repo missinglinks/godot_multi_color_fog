@@ -11,6 +11,6 @@ gradient = SubResource( 1 )
 
 [resource]
 shader = ExtResource( 1 )
-shader_param/fog_intensity = 0.879
+shader_param/fog_intensity = 0.656
 shader_param/fog_amount = 0.021
 shader_param/gradient = SubResource( 2 )
