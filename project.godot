@@ -19,6 +19,12 @@ config/name="MultiColorFog"
 run/main_scene="res://demo.tscn"
 config/icon="res://icon.png"
 
+[display]
+
+window/size/width=1600
+window/size/height=900
+
 [rendering]
 
+quality/filters/msaa=3
 environment/default_environment="res://default_env.tres"

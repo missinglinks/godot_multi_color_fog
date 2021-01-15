@@ -7,6 +7,6 @@ material = ExtResource( 1 )
 size = Vector2( 2, 2 )
 
 [node name="MultiColorFogOverlay" type="MeshInstance"]
-transform = Transform( 1, 0, 0, 0, 0.966048, -0.258362, 0, 0.258362, 0.966048, 0, -0.492112, -2.91483 )
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -0.1 )
 mesh = SubResource( 1 )
 material/0 = null

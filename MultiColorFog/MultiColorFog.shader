@@ -25,5 +25,4 @@ void fragment() {
 		ALBEDO =  mix(original.rgb, fog_color.rgb, fog_color.a * fog_intensity);
 	else
 		ALBEDO = fog_color.rgb;
-	//ALPHA = fog_color.a;
 }
